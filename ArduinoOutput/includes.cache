@@ -1,0 +1,137 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\kevin\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.4\\cores\\esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\kevin\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.4\\variants\\ttgo-t1"
+  },
+  {
+    "Sourcefile": "c:\\Github\\Esp32-Practice-Barebone\\ArduinoOutput\\sketch\\Esp32-Practice-Barebone.ino.cpp",
+    "Include": "Nextion.h",
+    "Includepath": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master"
+  },
+  {
+    "Sourcefile": "c:\\Github\\Esp32-Practice-Barebone\\ArduinoOutput\\sketch\\Esp32-Practice-Barebone.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexAudio.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexButton.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexCheckbox.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexCrop.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexDualStateButton.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexGauge.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexGpio.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexHardware.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexHotspot.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexNumber.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexObject.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexPage.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexPicture.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexProgressBar.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexRadio.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexRtc.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexScrolltext.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexSlider.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexText.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexTimer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexTouch.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexVariable.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\kevin\\OneDrive\\문서\\Arduino\\speakerSelector_arduino\\libraries\\ITEADLIB_Arduino_Nextion-master\\NexWaveform.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
