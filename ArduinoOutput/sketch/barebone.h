@@ -6,9 +6,9 @@
 
 
 //****************************************Nextion SETUP**************************************************
-HardwareSerial nexHwSerial(2);
-String nextion_str = "";
-int currner_page_num;
+// HardwareSerial nexHwSerial(2);
+// String nextion_str = "";
+// int currner_page_num;
 
 /*
 void NextionInit();
@@ -21,7 +21,22 @@ void BatteryPackSend();
 */
 
 
-//****************************************ENCODER SETUP****************************************************************
-// void EncoderInit();
+//****************************************Encoder SETUP**************************************************
+void Encoder_Setup();
+long readEncoderValue(void);
+void updateEncoder();
+void Encoder_Read_Loop();
+
+volatile int lastEncoded = 0;
+volatile long encoderValue = 0;
+
+long lastencoderValue = 0;
+
+int lastMSB = 0;
+int lastLSB = 0;
+
+//****************************************DFPlayer SETUP**************************************************
+HardwareSerial DFP_Serial(2); // HWserial2
+DFRobotDFPlayerMini myDFPlayer;
 
 #endif

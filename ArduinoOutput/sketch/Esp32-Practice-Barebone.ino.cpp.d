@@ -135,4 +135,5 @@ c:\Github\Esp32-Practice-Barebone\ArduinoOutput\sketch\Esp32-Practice-Barebone.i
  C:\Users\kevin\OneDrive\문서\Arduino\speakerSelector_arduino\libraries\ITEADLIB_Arduino_Nextion-master/NexTouch.h \
  C:\Users\kevin\OneDrive\문서\Arduino\speakerSelector_arduino\libraries\ITEADLIB_Arduino_Nextion-master/NexObject.h \
  C:\Users\kevin\OneDrive\문서\Arduino\speakerSelector_arduino\libraries\ITEADLIB_Arduino_Nextion-master/NexHardware.h \
- C:\Users\kevin\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.4\cores\esp32/HardwareSerial.h
+ C:\Users\kevin\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.4\cores\esp32/HardwareSerial.h \
+ C:\Users\kevin\OneDrive\문서\Arduino\speakerSelector_arduino\libraries\DFRobotDFPlayerMini/DFRobotDFPlayerMini.h
