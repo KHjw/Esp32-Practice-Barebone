@@ -37,7 +37,7 @@ void setup()
     Serial.begin(115200);
     Serial.println("------Esp32-Practice-Barebone Initialized------");
     Encoder_Setup();
-    DFP_Setup();
+    // DFP_Setup();
 }
 
 
@@ -113,8 +113,8 @@ void updateEncoder(){
   int encoded = (MSB << 1) |LSB; //converting the 2 pin value to single number
   int sum  = (lastEncoded << 2) | encoded; //adding it to the previous encoded value
 
-  if(sum == 0b1101 || sum == 0b0100 || sum == 0b0010 || sum == 0b1011) encoderValue ++;
-  if(sum == 0b1110 || sum == 0b0111 || sum == 0b0001 || sum == 0b1000) encoderValue --;
+  if(sum == 0b1101 || sum == 0b0100 || sum == 0b0010 || sum == 0b1011) encoderValue --;
+  if(sum == 0b1110 || sum == 0b0111 || sum == 0b0001 || sum == 0b1000) encoderValue ++;
 
   lastEncoded = encoded; //store this value for next time
 }

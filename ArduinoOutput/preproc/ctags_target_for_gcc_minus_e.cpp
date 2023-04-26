@@ -28,7 +28,7 @@ void setup()
     Serial.begin(115200);
     Serial.println("------Esp32-Practice-Barebone Initialized------");
     Encoder_Setup();
-    DFP_Setup();
+    // DFP_Setup();
 }
 
 
@@ -62,26 +62,26 @@ long readEncoderValue(void){
 }
 
 boolean isButtonPushDown(void){
-  if(!digitalRead(4)){
+  if(!digitalRead(32)){
     delay(5);
-    if(!digitalRead(4))
+    if(!digitalRead(32))
       return true;
   }
   return false;
 }
 
 void Encoder_Setup(){
-  pinMode(12, 0x01);
-  pinMode(13, 0x01);
-  pinMode(4, 0x01);
+  pinMode(34, 0x01);
+  pinMode(35, 0x01);
+  pinMode(32, 0x01);
 
-  digitalWrite(12, 0x1); //turn pullup resistor on
-  digitalWrite(13, 0x1); //turn pullup resistor on
+  digitalWrite(34, 0x1); //turn pullup resistor on
+  digitalWrite(35, 0x1); //turn pullup resistor on
 
   //call updateEncoder() when any high/low changed seen
   //on interrupt 0 (pin 2), or interrupt 1 (pin 3)
-  attachInterrupt(12, updateEncoder, 0x03);
-  attachInterrupt(13, updateEncoder, 0x03);
+  attachInterrupt(34, updateEncoder, 0x03);
+  attachInterrupt(35, updateEncoder, 0x03);
 }
 
 void Encoder_Read_Loop(){ // "encoder값, 버튼눌림" 을 표시
@@ -98,14 +98,14 @@ void Encoder_Read_Loop(){ // "encoder값, 버튼눌림" 을 표시
 }
 
 void updateEncoder(){
-  int MSB = digitalRead(12); //MSB = most significant bit
-  int LSB = digitalRead(13); //LSB = least significant bit
+  int MSB = digitalRead(34); //MSB = most significant bit
+  int LSB = digitalRead(35); //LSB = least significant bit
 
   int encoded = (MSB << 1) |LSB; //converting the 2 pin value to single number
   int sum = (lastEncoded << 2) | encoded; //adding it to the previous encoded value
 
-  if(sum == 0b1101 || sum == 0b0100 || sum == 0b0010 || sum == 0b1011) encoderValue ++;
-  if(sum == 0b1110 || sum == 0b0111 || sum == 0b0001 || sum == 0b1000) encoderValue --;
+  if(sum == 0b1101 || sum == 0b0100 || sum == 0b0010 || sum == 0b1011) encoderValue --;
+  if(sum == 0b1110 || sum == 0b0111 || sum == 0b0001 || sum == 0b1000) encoderValue ++;
 
   lastEncoded = encoded; //store this value for next time
 }

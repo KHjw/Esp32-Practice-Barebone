@@ -18,7 +18,7 @@ void setup()
     Serial.begin(115200);
     Serial.println("------Esp32-Practice-Barebone Initialized------");
     Encoder_Setup();
-    DFP_Setup();
+    // DFP_Setup();
 }
 
 
